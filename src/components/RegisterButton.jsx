@@ -5,7 +5,7 @@ const RegisterButton = ({pref}) => {
   return (
     <div ref={pref} className='flex justify-center mt-10'>
         <Link to='/'
-        className='font-orbitron bg-yellow-500 py-5 px-10 text-xl font-semibold rounded-full'
+        className='font-orbitron bg-gradient-to-r from-orange-600 to-yellow-400 border-4 hover:border-4 hover:border-black transition-all ease-in-out py-5 px-10 text-xl font-semibold rounded-full'
         >
             Register Now
         </Link>

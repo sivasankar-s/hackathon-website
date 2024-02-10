@@ -4,7 +4,7 @@ import arvr from '../assets/arvr.jpg'
 const Theme = ({pref}) => {
   return (
     <div ref={pref} className='mt-12 lg:mt-44 px-6 sm:px-16 '>
-        <h1 className='font-orbitron text-2xl lg:text-6xl text-center mb-12'>Theme</h1>
+        <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"] after:block text-center mb-12'>Theme</h1>
 
         <div className='flex flex-wrap justify-center'>
 

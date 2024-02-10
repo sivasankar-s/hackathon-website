@@ -5,9 +5,9 @@
 .header-gradient {
     @apply bg-gradient-to-r from-stone-950 to-stone-500  text-transparent bg-clip-text;
 }
-*{
+/* *{
     font-family:SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
+} */
 
 @layer base {
     .font-outline-2 {
@@ -16,4 +16,16 @@
     .font-outline-4 {
       -webkit-text-stroke: 4px black;
     }
+
+    .navunderline {
+        @apply block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-16 after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
+    }
+
+    .btn2 span:first-child{
+        transform: translateX(-101%);
+        transition: transform .3s ease-in
+      }
+      .btn2:hover span{
+        transform: translateX(0)
+      }
   }

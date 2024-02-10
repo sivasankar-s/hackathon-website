@@ -2,23 +2,25 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import { IoMdMail } from "react-icons/io";
+import { FaGlobe } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className='h-screen w-auto sm:w-full bg-white flex flex-col '>
 
         <Navbar />
-        <h1 className='mt-20 text-4xl lg:text-7xl font-orbitron text-center mb-20'>Contact</h1>
+        <h1 className='mt-20 text-4xl lg:text-7xl font-orbitron text-center after:content-["―――"] after:block mb-20'>Contact</h1>
 
-        <div className='bg-gray-950'>
-        <div className='m-20 p-5 mx-6 lg:mx-16 bg-gray-500 '>
+        <div className='bg-gray-500'>
+        <div className='m-20 p-5 mx-6 lg:mx-16 bg-gray-950 '>
             
-            <div className='flex flex-wrap gap-y-10 my-10 justify-center '>
-                <div className='flex flex-col   lg:w-1/2 '>
+            <div className='flex flex-wrap gap-y-10 my-10 justify-center text-white '>
+                <div className='flex flex-col  items-center lg:w-1/2 '>
                     <h3 className='text-2xl text-center font-bold mb-10'>Staff Coordinators</h3>
 
-                    <div className='flex justify-center space-x-6'>
-                    <div className='flex flex-col gap-y-5'>
+                    <div className='flex justify-center space-x-6 '>
+                    <div className='flex  flex-col gap-y-5 text-center'>
                         <p className='text-lg font-bold'>Dr. Syed Musthafa </p>
                         <p className='text-lg font-bold'>A. Vijay </p>
                     </div>
@@ -36,8 +38,8 @@ const Contact = () => {
                     
                     <h3 className='text-2xl text-center font-bold mb-10'>Student Coordinators</h3>
 
-                    <div className='flex justify-center space-x-6'>
-                        <div className='flex flex-col gap-y-5'>
+                    <div className='flex justify-center space-x-6 '>
+                        <div className='flex flex-col gap-y-5 '>
                             <p className='text-lg font-bold'>Nivesh G </p>
                             <p className='text-lg font-bold'>Nideesh A G </p>
                             <p className='text-lg font-bold'>Nivesh G </p>
@@ -58,8 +60,20 @@ const Contact = () => {
 
             </div>
 
-            <h4 className='mt-10 text-lg font-semibold text-center'>Email: crackathon24@gmail.com</h4>
-            <Link target='_blank' to='https://mkce.ac.in/' className='mt-4 text-lg font-semibold block text-center'>mkce.ac.in</Link>
+            <div className='flex items-center justify-center'>
+                <div className='text-white items-center mt-10 mr-4 text-xl'>
+                    <IoMdMail />
+                </div>
+                <h4 className='mt-10 text-lg font-semibold text-center text-white'> crackathon24@gmail.com</h4>
+            </div>
+
+            <div className='flex items-center justify-center'>
+                <div className='text-white items-center mt-4 mr-4 text-xl'>
+                    <FaGlobe />
+                </div>  
+            <Link target='_blank' to='https://mkce.ac.in/' className='mt-4 text-lg font-semibold block text-center text-white'>mkce.ac.in</Link>
+            </div>
+
         </div>
         </div>
 

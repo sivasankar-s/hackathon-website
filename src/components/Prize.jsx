@@ -6,7 +6,7 @@ import three from '../assets/3rd-place.png'
 const Prize = ({pref}) => {
   return (
     <div ref={pref} className='mt-20 lg:mt-44'>
-        <h1 className='font-orbitron text-2xl lg:text-6xl  text-center mb-12'>Prize Amount</h1>
+        <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"] after:block  text-center mb-12'>Prize Amount</h1>
 
         <div className='flex flex-wrap justify-around gap-8'>
 
