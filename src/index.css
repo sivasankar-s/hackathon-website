@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-gradient {
+    @apply bg-gradient-to-r from-stone-950 to-stone-500  text-transparent bg-clip-text;
+}
+*{
+    font-family:SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+@layer base {
+    .font-outline-2 {
+      -webkit-text-stroke: 2px  black;
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 4px black;
+    }
+  }
