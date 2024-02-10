@@ -9,7 +9,7 @@ const Hero = ({pref}) => {
         <h1 className='font-bold text-4xl mt-5 lg:text-7xl  lg:mt-10 text-white  font-orbitron'>2024</h1>
         </div>
         <div className='text-center'>
-        <h1 className='font-bold text-2xl lg:text-4xl mt-12 lg:mt-32 text-white '>March 14, 15</h1>
+        <h1 className='font-bold text-2xl lg:text-4xl mt-12 lg:mt-32 text-white '>March 14, 15</h1> 
         <h3 className='font-semibold text-xl flex text-center lg:text-3xl mt-5 lg:mt-6 text-white'>M. Kumarasamy College of Engineering, Karur</h3>
         </div>
     </div>
