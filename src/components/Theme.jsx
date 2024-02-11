@@ -3,7 +3,7 @@ import arvr from '../assets/arvr.jpg'
 
 const Theme = ({pref}) => {
   return (
-    <div ref={pref} className='mt-12 lg:mt-44 px-6 sm:px-16 '>
+    <div ref={pref} className='mt-24 lg:mt-44 px-6 sm:px-16 '>
         <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"]  after:block text-center mb-12'>Theme</h1>
 
         <div className='flex flex-wrap justify-center'>
@@ -13,8 +13,13 @@ const Theme = ({pref}) => {
             {/* <div className='rounded-xl overflow-hidden border-2 border-black'> */}
             <img src={arvr} className='w-full h-40 lg:h-60 object-cover  rounded-xl overflow-hidden' />
             {/* </div> */}
-            <p className='mt-10 px-4'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod dictum sagittis. Donec nec urna lectus. Vestibulum turpis tortor, consequat vel ante ac, volutpat feugiat mi. Sed et tortor at leo pellentesque tempus id non erat. Praesent mollis magna sem, nec commodo justo posuere ac. In hac habitasse platea dictumst. Donec fringilla purus vitae malesuada commodo. Mauris et tortor efficitur tortor vestibulum porta. Aenean id consectetur orci. Aenean quis elit at enim sodales aliquet sodales non erat.
+            <p className='mt-10 px-4 pb-8'>
+            In the current tech landscape, AR/VR stands tall, a beacon of immersive potential.
+From enhancing education to revolutionizing entertainment, the possibilities are vast.
+Collaborative minds unite, fueled by the drive to redefine human interaction.
+With each line of code and pixel crafted, new worlds come alive in virtual space.
+Innovation knows no bounds as teams push the boundaries of perception.
+In this hackathon, AR/VR pioneers embark on a journey to shape the future.
             </p>
         </div>
 

@@ -15,7 +15,9 @@ export default {
       },
       fontFamily: {
         orbitron: ['"Orbitron"', ...defaultTheme.fontFamily.sans],
-        saira: ['"Saira Semi Condensed"', ...defaultTheme.fontFamily.sans]
+        saira: ['"Saira Semi Condensed"', ...defaultTheme.fontFamily.sans],
+        questrial: ['"Questrial"', ...defaultTheme.fontFamily.sans],
+        russo: ['"Russo One"', ...defaultTheme.fontFamily.sans]
       }
     },
   },
