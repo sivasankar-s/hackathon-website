@@ -26,8 +26,8 @@ const Contact = () => {
                     </div>
 
                     <div className='flex flex-col gap-y-5'>
-                        <Link className='text-lg font-semibold' to='tel:9787886643'>+91 9787886643</Link>
-                        <Link className='text-lg font-semibold' to='tel:9942712798'>+91 9942712798</Link>
+                        <Link className='text-lg font-semibold text-cyan-300' to='tel:9787886643'>+91 9787886643</Link>
+                        <Link className='text-lg font-semibold text-cyan-300' to='tel:9942712798'>+91 9942712798</Link>
                     </div>
                     </div>
                     
@@ -47,10 +47,10 @@ const Contact = () => {
                         </div>
 
                         <div className='flex flex-col gap-y-5'>
-                            <Link className='text-lg font-semibold' to='tel:9363354914'>+91 9363354914</Link>
-                            <Link className='text-lg font-semibold' to='tel:7708076533'>+91 7708076533</Link>
-                            <Link className='text-lg font-semibold' to='tel:9363354914'>+91 9363354914</Link>
-                            <Link className='text-lg font-semibold' to='tel:7708076533'>+91 7708076533</Link>
+                            <Link className='text-lg font-semibold text-cyan-300' to='tel:9363354914'>+91 9363354914</Link>
+                            <Link className='text-lg font-semibold text-cyan-300' to='tel:7708076533'>+91 7708076533</Link>
+                            <Link className='text-lg font-semibold text-cyan-300' to='tel:9363354914'>+91 9363354914</Link>
+                            <Link className='text-lg font-semibold text-cyan-300' to='tel:7708076533'>+91 7708076533</Link>
                         </div>
                     </div>
 
