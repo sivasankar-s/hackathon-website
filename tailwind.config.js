@@ -9,8 +9,8 @@ export default {
     extend: {
       dropShadow: {
         glow: [
-          "0 0px 20px rgba(9, 255, 0, 0.35)",
-          "0 0px 65px rgba(9, 255, 0, 0.2)"
+          "0 0px 20px rgba(73, 207, 240, 0.8)",
+          "0 0px 65px rgba(73, 207, 240, 0.8)"
         ]
       },
       fontFamily: {

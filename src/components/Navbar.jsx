@@ -7,7 +7,7 @@ const Navbar = () => {
       {/* absolute top-0 right-0 left-0 */}
       <Link to='/' className="font-semibold navunderline">Home</Link>
       <Link to='/contact' className=' font-semibold navunderline'>Contact</Link>
-      <Link to='/register' className=' font-semibold navunderline'>Register</Link>
+      <Link target='_blank' to='https://forms.gle/eEheENwiwWjZRJeu6' className=' font-semibold navunderline'>Register</Link>
     </div>
   )
 }

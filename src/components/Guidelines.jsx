@@ -20,7 +20,7 @@ const Guidelines = ({pref}) => {
           <h3 className='font-orbitron text-xl lg:text-4xl  text-center mb-10'>Final Hackathon</h3>
           <div className='flex justify-center '>
           <ul className='list-disc leading-9 w-auto lg:w-1/2 '>
-            <li>Selected teams should pay the registration fee - <span className='font-bold'>Rs. 550 per head</span>.</li>
+            <li>Selected teams should pay the registration fee - <span className='font-bold'>Rs. 2200 per team</span>.</li>
             <li>Final hackathon will be take place on M. Kumarasamy College of Engineering, Karur, Tamilnadu - 639113.</li>
             <li>In the Final hackathon, teams will be asked to perform or implement the task given by judges.</li>
             <li>Food, refreshment and accomodation will be provided by us.</li>
