@@ -3,7 +3,7 @@ import bg1 from '../assets/bg4.mp4'
 
 const Hero = ({pref}) => {
   return (
-    <div ref={pref} className=' flex relative mt-20 lg:mt-14 pt-14 gap-y-10  lg:gap-y-0 flex-col h-[70vh] lg:h-[95vh] items-center justify-center 
+    <div ref={pref} className=' flex relative mt-20 lg:mt-14 pt-14 gap-y-10  lg:gap-y-0 flex-col h-[60vh] lg:h-[95vh] items-center justify-center 
     
     '>
 
