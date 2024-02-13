@@ -5,19 +5,20 @@ const Guidelines = ({pref}) => {
     <div ref={pref} className='mt-24 lg:mt-44 px-6 lg:px-16 '>
         <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"] after:block text-center mb-12'>Guidelines</h1>
 
-        <h3 className='font-orbitron text-xl lg:text-4xl  text-center mb-10'>Idea Submission</h3>
+        {/* <h3 className='font-orbitron text-xl lg:text-4xl  text-center mb-10'>Idea Submission</h3> */}
         <div className='flex justify-center mb-12 '>
           <ul className='list-disc leading-9 w-auto lg:w-1/2 '>
-            <li>Team should have <span className='font-bold'>2-4 members</span>.</li>
+            <li>Team should have <span className='font-bold'>Maximum 4 members</span>.</li>
             <li>No registration fee for idea submission.</li>
-            <li>Last date for idea submission <span className='font-bold'>06.03.2024</span>.</li>
+            <li>Last date for idea submission <span className='font-bold'>07.03.2024</span>.</li>
             <li>After submission of idea, if your project is shortlisted, you will receive mail.</li>
             <li>The project should be done only in Final Hackathon.</li>
+            <li>Selected teams should pay the registration fee - <span className='font-bold'>Rs. 2200 per team</span>.</li>
             {/* <li></li> */}
           </ul>
           </div>
 
-          <h3 className='font-orbitron text-xl lg:text-4xl  text-center mb-10'>Final Hackathon</h3>
+          {/* <h3 className='font-orbitron text-xl lg:text-4xl  text-center mb-10'>Final Hackathon</h3>
           <div className='flex justify-center '>
           <ul className='list-disc leading-9 w-auto lg:w-1/2 '>
             <li>Selected teams should pay the registration fee - <span className='font-bold'>Rs. 2200 per team</span>.</li>
@@ -29,7 +30,7 @@ const Guidelines = ({pref}) => {
             <li>If you need accomodation before 14.03.2024, extra <span className='font-bold'>Rs. 100</span> will be added to registration fee.</li>
             <li>Internet service will be provided, but you should bring your own VR accessories (If project is VR).</li>
           </ul>
-          </div>
+          </div> */}
 
         {/* <div className='px-20'>
             

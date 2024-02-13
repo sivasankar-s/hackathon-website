@@ -14,7 +14,7 @@ const Prize = ({pref}) => {
           <img src={one} className='w-56 h-56'/>
           {/* <div className=''> */}
           <h2 className='font-orbitron text-xl lg:text-3xl mt-3'>1st Prize</h2>
-          <h2 className='font-orbitron text-xl lg:text-3xl'>Rs. 20,000</h2>
+          <h2 className='font-orbitron text-xl lg:text-3xl'>Rs. 15,000</h2>
           {/* </div> */}
         </div>
 
@@ -22,7 +22,7 @@ const Prize = ({pref}) => {
           <img src={two} className='w-56 h-56'/>
           {/* <div className=''> */}
           <h2 className='font-orbitron text-xl lg:text-3xl mt-3'>2nd Prize</h2>
-          <h2 className='font-orbitron text-xl lg:text-3xl'>Rs. 12,000</h2>
+          <h2 className='font-orbitron text-xl lg:text-3xl'>Rs. 10,000</h2>
           {/* </div> */}
         </div>
 
@@ -30,7 +30,7 @@ const Prize = ({pref}) => {
           <img src={three} className='w-56 h-56'/>
           {/* <div className=''> */}
           <h2 className='font-orbitron text-xl lg:text-3xl mt-3'>3rd Prize</h2>
-          <h2 className='font-orbitron text-xl lg:text-3xl'>Rs. 8,000</h2>
+          <h2 className='font-orbitron text-xl lg:text-3xl'>Rs. 5,000</h2>
           {/* </div> */}
         </div>
 
