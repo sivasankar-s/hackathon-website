@@ -10,7 +10,7 @@ const Contact = () => {
     <div className='h-screen w-auto sm:w-full bg-white flex flex-col '>
 
         <Navbar />
-        <h1 className='mt-20 text-4xl lg:text-7xl font-orbitron text-center after:content-["―――"] after:block mb-20'>Contact</h1>
+        <h1 className='mt-20 text-4xl lg:text-7xl font-orbitron text-center after:content-["―――"] after:block mb-20 ani-text'>Contact</h1>
 
         <div className='bg-gray-500'>
         <div className='m-20 p-5 mx-6 lg:mx-16 bg-gray-950 '>
@@ -22,7 +22,7 @@ const Contact = () => {
                     <div className='flex justify-center space-x-6 '>
                     <div className='flex  flex-col gap-y-5 text-center'>
                         <p className='text-lg font-bold'>Dr. Syed Musthafa </p>
-                        <p className='text-lg font-bold'>A. Vijay </p>
+                        <p className='text-lg font-bold'>Vijay  A</p>
                     </div>
 
                     <div className='flex flex-col gap-y-5'>
@@ -41,16 +41,16 @@ const Contact = () => {
                     <div className='flex justify-center space-x-6 '>
                         <div className='flex flex-col gap-y-5 '>
                             <p className='text-lg font-bold'>Nivesh G </p>
-                            <p className='text-lg font-bold'>Nideesh A G </p>
-                            <p className='text-lg font-bold'>Nivesh G </p>
-                            <p className='text-lg font-bold'>Nideesh A G </p>
+                            <p className='text-lg font-bold'>Bommanesh S </p>
+                            <p className='text-lg font-bold'>Swathi G </p>
+                            <p className='text-lg font-bold'>Lydia M  </p>
                         </div>
 
                         <div className='flex flex-col gap-y-5'>
                             <Link className='text-lg font-semibold text-cyan-300' to='tel:9363354914'>+91 9363354914</Link>
+                            <Link className='text-lg font-semibold text-cyan-300' to='tel:7010433740'>+91 7010433740</Link>
                             <Link className='text-lg font-semibold text-cyan-300' to='tel:7708076533'>+91 7708076533</Link>
-                            <Link className='text-lg font-semibold text-cyan-300' to='tel:9363354914'>+91 9363354914</Link>
-                            <Link className='text-lg font-semibold text-cyan-300' to='tel:7708076533'>+91 7708076533</Link>
+                            <Link className='text-lg font-semibold text-cyan-300' to='tel:9600608093'>+91 9600608093</Link>
                         </div>
                     </div>
 
@@ -64,7 +64,7 @@ const Contact = () => {
                 <div className='text-white items-center mt-10 mr-4 text-xl'>
                     <IoMdMail />
                 </div>
-                <h4 className='mt-10 text-lg font-semibold text-center text-white'> crackathon24@gmail.com</h4>
+                <h4 className='mt-10 text-lg font-semibold text-center text-white'> crackathon2.0@gmail.com</h4>
             </div>
 
             <div className='flex items-center justify-center'>

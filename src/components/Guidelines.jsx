@@ -3,7 +3,7 @@ import React from 'react'
 const Guidelines = ({pref}) => {
   return (
     <div ref={pref} className='mt-24 lg:mt-44 px-6 lg:px-16 '>
-        <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"] after:block text-center mb-12'>Guidelines</h1>
+        <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"] after:block text-center mb-12 ani-text'>Guidelines</h1>
 
         {/* <h3 className='font-orbitron text-xl lg:text-4xl  text-center mb-10'>Idea Submission</h3> */}
         <div className='flex justify-center mb-12 '>

@@ -4,7 +4,7 @@ import arvr from '../assets/arvr.jpg'
 function FrontOfCard() {
   return (
     <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-gradient-to-br from-purple-900 to-pink-600 overflow-hidden transition-all duration-100 delay-200 z-20 hover:opacity-0">
-      <h1 className='text-4xl  text-black font-russo'>Open Theme</h1>
+      <h1 className='text-4xl  text-white font-russo'>Open Theme</h1>
     </div>
   );
 }
@@ -38,7 +38,7 @@ const Theme = ({pref}) => {
 
   return (
     <div ref={pref} className='mt-24 lg:mt-44 px-6 sm:px-16 '>
-        <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"]  after:block text-center mb-12'>Theme</h1>
+        <h1 className='font-orbitron text-2xl lg:text-6xl after:content-["―――"]  after:block text-center mb-12  ani-text'>Theme</h1>
 
         <div className='flex flex-wrap justify-center'>
 
@@ -57,7 +57,7 @@ In this hackathon, AR/VR pioneers embark on a journey to shape the future.
 
             {width > 768 ? 
               (
-                <div className="relative h-40 lg:h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-700 card">
+                <div className="relative h-40 lg:h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-700 card ">
       <FrontOfCard />
       <BackOfCard />
     </div>
