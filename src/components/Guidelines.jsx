@@ -13,7 +13,7 @@ const Guidelines = ({pref}) => {
             <li>Last date for idea submission <span className='font-bold'>07.03.2024</span>.</li>
             <li>After submission of idea, if your project is shortlisted, then you will receive a mail from crackathon2.0@gmail.com .</li>
             <li>The project should be done only in the day of Final Hackathon.</li>
-            <li>Selected teams should pay the registration fee - <span className='font-bold'>Rs. 550 per head</span>.</li>
+            <li>Selected teams should pay the registration fee - <span className='font-bold'>Rs. 2000 per team</span>.</li>
             {/* <li></li> */}
           </ul>
           </div>
