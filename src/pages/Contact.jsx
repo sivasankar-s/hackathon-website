@@ -21,8 +21,8 @@ const Contact = () => {
 
                     <div className='flex justify-center space-x-6 '>
                     <div className='flex  flex-col gap-y-5 text-center'>
-                        <p className='text-lg font-bold'>Dr. Syed Musthafa </p>
-                        <p className='text-lg font-bold'>Vijay  A</p>
+                        <p className='text-lg font-bold'>Dr. A. Syed Musthafa </p>
+                        <p className='text-lg font-bold'>Mr. A. Vijay</p>
                     </div>
 
                     <div className='flex flex-col gap-y-5'>
