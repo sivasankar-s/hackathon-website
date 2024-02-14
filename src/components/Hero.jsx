@@ -1,5 +1,4 @@
 import React from 'react'
-import bg1 from '../assets/bg4.mp4'
 
 const Hero = ({pref}) => {
   return (
@@ -7,18 +6,6 @@ const Hero = ({pref}) => {
     
     '>
 
-
-{/* <video className="absolute inset-0 object-cover  w-full h-full overflow-hidden"
-        autoPlay
-        loop
-        muted>
-          <source src={bg1} type='video/mp4' />
-
-        
-
-        </video> */}
-     
-     {/* <div className='bg-black w-full h-full opacity-75 absolute inset-0' /> */}
 
       <p className='absolute top-3 left-1 lg:left-4 text-xs lg:text-lg p-1.5 font-semibold bg-yellow-500 rounded-lg lg:p-3'>No Fee for Idea Submission</p>
         

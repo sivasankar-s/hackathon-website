@@ -1,5 +1,4 @@
 import React from 'react'
-import arvr from '../assets/arvr.jpg'
 
 function FrontOfCard() {
   return (
@@ -43,39 +42,25 @@ const Theme = ({pref}) => {
         <div className='flex flex-wrap justify-center'>
 
         <div className='lg:w-[400px] w-auto overflow-hidden  gap-y-5 shadow-lg rounded-xl '>
-            {/* <h2 className='text-3xl mb-5 font-bold text-center'>AR / VR</h2>
-            <img src={arvr} className='w-full h-40 lg:h-60 object-cover  rounded-xl overflow-hidden' />
-            
-            <p className='mt-10 px-4 pb-8'>
-            In the current tech landscape, AR/VR stands tall, a beacon of immersive potential.
-From enhancing education to revolutionizing entertainment, the possibilities are vast.
-Collaborative minds unite, fueled by the drive to redefine human interaction.
-With each line of code and pixel crafted, new worlds come alive in virtual space.
-Innovation knows no bounds as teams push the boundaries of perception.
-In this hackathon, AR/VR pioneers embark on a journey to shape the future.
-            </p> */}
+          
 
             {width > 768 ? 
               (
                 <div className="relative h-40 lg:h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-700 card ">
-      <FrontOfCard />
-      <BackOfCard />
-    </div>
+                  <FrontOfCard />
+                  <BackOfCard />
+                </div>
               )
               :
               (
                 <div className="relative h-48 lg:h-60 rounded-2xl text-white  cursor-pointer transition-all duration-700 ">
-      <FullCard />
-    </div>
+                  <FullCard />
+                </div>
               )
 
 
           }
 
-
-
-
-    
 
         </div>
 
