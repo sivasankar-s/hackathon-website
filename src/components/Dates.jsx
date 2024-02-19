@@ -1,5 +1,5 @@
 import React from 'react'
-import dates from '../assets/dates2.svg';
+import dates from '../assets/dates3.svg';
 
 const Dates = () => {
   return (
