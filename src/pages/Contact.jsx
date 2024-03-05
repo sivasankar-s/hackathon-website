@@ -43,14 +43,14 @@ const Contact = () => {
                             <p className='text-lg font-bold'>Nivesh G </p>
                             <p className='text-lg font-bold'>Bommanesh S </p>
                             <p className='text-lg font-bold'>Swathi G </p>
-                            <p className='text-lg font-bold'>Lydia M  </p>
+                            <p className='text-lg font-bold'>Kiruthika B  </p>
                         </div>
 
                         <div className='flex flex-col gap-y-5'>
                             <Link className='text-lg font-semibold text-cyan-300' to='tel:9363354914'>+91 9363354914</Link>
                             <Link className='text-lg font-semibold text-cyan-300' to='tel:7010433740'>+91 7010433740</Link>
                             <Link className='text-lg font-semibold text-cyan-300' to='tel:7708076533'>+91 7708076533</Link>
-                            <Link className='text-lg font-semibold text-cyan-300' to='tel:9600608093'>+91 9600608093</Link>
+                            <Link className='text-lg font-semibold text-cyan-300' to='tel:9791488767'>+91 9791488767</Link>
                         </div>
                     </div>
 
